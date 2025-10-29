@@ -1,2 +1,2 @@
 # Java-Script-
-This repo sho the learning of java script
+This repo show the learning of java script

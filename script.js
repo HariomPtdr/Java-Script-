@@ -105,3 +105,7 @@
 
 // }
 
+// assgnment return 
+const  number = [1, 2, 4, 6, 6, 5, 3, 43, 23];
+const result = number.filter( (num) => num % 2 === 0);
+console.log(result);

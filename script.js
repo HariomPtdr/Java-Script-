@@ -110,3 +110,71 @@
 // const result = number.filter( (num) => num % 2 === 0);
 // console.log(result);
 
+// // Write a function that takes an array of users as inputs and returns only the users who are more than 18 years old
+
+// const users = [{
+// 		name: "Hariom",
+// 		age: 20
+// 	}, {
+// 		name: "patidar",
+// 		age: 22
+// 	}
+// ]
+// const result = users.filter( (user) => user.age > 18);
+// console.log(result);
+
+// // Assignment
+// // Create a function that takes an array of objects as input,
+// // and returns the users whose age > 18 and are male
+// const user = [ {
+//     name : "Hariom",
+//     age : 20,
+//     gender : "male"
+// },{
+//     name : "Harsh",
+//     age : 18,
+//     gender : "male"
+// },{
+//     name : "Kiran",
+//     age : 20,
+//     gender : "female"
+// }
+// ]
+// const result = user.filter( (user) => user.gender === "male" && user.age > 18);
+// console.log(result);
+
+// function sum(a,b){
+//     return a+b;
+// }
+// let ans = sum(3,5);
+// console.log(ans);
+
+// function sum(a){
+//     let ans = 0;
+//     for(let i = 0; i <= a; i++){
+//         ans += i;
+//     }
+//     console.log(ans);
+// }
+// sum(5);
+
+// function sum(n){
+//     let ans = 0;
+//     for(let i = 0; i <= n; i++){
+//         ans += i;
+//     }
+//     return ans;
+// }
+// const ans1 = sum(10);
+// console.log(ans1);
+
+// const ans2 = sum(1000);
+// console.log(ans2);
+
+// const ans3 = sum(1435);
+// console.log(ans3);
+
+// const fs = require("fs");
+
+// const contents = fs.readFileSync("a.txt", "utf-8");
+// console.log(contents);

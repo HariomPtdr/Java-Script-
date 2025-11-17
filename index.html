@@ -1,11 +1,76 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+  <script src="script.js"></script>
+  <div>
+    Signup
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <button onclick="signup()">Submit</button>
+</div>
+<div>
+    Signin
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <button onclick="signin()">Submit</button>
+</div>
+<div>
+    User information: 
+    <div id="information"></div>
+</div>
+<div>
+    <button onclick="logout()">Logout</button>
+</div>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>ShopApp | Login</title>
+  <style>
+    body { font-family: Arial; background: #f7f7f7; display:flex; justify-content:center; align-items:center; height:100vh;}
+    .container { background:#fff; padding:20px; border-radius:8px; box-shadow:0 0 10px #ccc; width:300px; }
+    input, button { width:100%; padding:10px; margin:8px 0; border:1px solid #ccc; border-radius:5px;}
+    button { background:#28a745; color:#fff; border:none;}
+    h2{text-align:center}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+  </div>
+
+  <script>
+    function login(){
+      const email = document.getElementById('email').value;
+      const pass = document.getElementById('password').value;
+      if(email && pass){
+        localStorage.setItem('user', email);
+        window.location.href = "products.html";
+      } else alert("Enter valid credentials");
+    }
+  </script>
+</body>
+</html> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
+  
 </body>
 </html>
